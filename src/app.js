@@ -6,7 +6,7 @@ app.get('/health', (req, res) => {
 });
 
 app.get('/hello', (req, res) => {
-    res.json({ message: 'Hello CI/CD!' });
+    res.json({ message: 'Hello broken CI!' });
 });
 
 module.exports = app;
